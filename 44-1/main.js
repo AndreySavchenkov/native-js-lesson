@@ -5,75 +5,129 @@
 
 //ссылочный тип данных
 
-const student = {
-    name: 'Bob',
-    age: 30,
-    friends: ['Alex', 'Donald']
-}
+// const student = {
+//     name: 'Bob',
+//     age: 30,
+//     friends: ['Alex', 'Donald']
+// }
+//
+// const studentPlus = student;
+// studentPlus.name = 'John'
+// console.log(student)
+//
+// const copyStudent = {...student}; //cпред оператор - (разворачиваем обьект
+//     //поверхностное копирование
+//
+// const num = [1,2,3]
+// const copyNum = [...num];
+//
+// student.friends.push('Nik')
+// console.log(student);
+//
+// // глубокое копирование
+//
+// const deepCopyStudent = {
+//     ...student,
+//     friends: [...student.friends]
+// }
+//
+// console.log(deepCopyStudent)
+//
+// deepCopyStudent.friends.push('Ann')
+//
+// console.log(deepCopyStudent)
+// console.log(student)
+//
+//
+// //map (преобразование массива и возвразает новый массив)
+//
+// const students = [
+//     {
+//         name: "Bob",
+//         age: 22,
+//         isMarried: true,
+//         scores: 120
+//     },
+//     {
+//         name: "Alex",
+//         age: 21,
+//         isMarried: true,
+//         scores: 85
+//     },
+//     {
+//         name: "Michel",
+//         age: 20,
+//         isMarried: false,
+//         scores: 89
+//     }, {
+//         name: "John",
+//         age: 19,
+//         isMarried: false,
+//         scores: 100
+//     }
+// ]
+//
+// const getStudentName = (s, i)  => {
+//    return `Student ${i}: ${s.name}, ${s.age} years old`
+// }
+//
+// const names = students.map(getStudentName) ;
 
-const studentPlus = student;
-studentPlus.name = 'John'
-console.log(student)
+//homework 2 in old.code.mu --------------------------------------------------------------------------
 
-const copyStudent = {...student}; //cпред оператор - (разворачиваем обьект
-    //поверхностное копирование
+//1
 
-const num = [1,2,3]
-const copyNum = [...num];
+// for (let i = 0; i <= 100; i++) {
+//     console.log(i)
+// }
 
-student.friends.push('Nik')
-console.log(student);
+//2
 
-// глубокое копирование
+// for (let i= 100; i >= 0; i--){
+//     console.log(i)
+// }
 
-const deepCopyStudent = {
-    ...student,
-    friends: [...student.friends]
-}
+//3
 
-console.log(deepCopyStudent)
+// for(let i = 0; i <= 100; i++) {
+//     if(i%2 == 0){
+//         console.log(i)
+//     }
+// }
 
-deepCopyStudent.friends.push('Ann')
+//4
 
-console.log(deepCopyStudent)
-console.log(student)
+// let arr = [];
+// let x = 'x';
+//
+// for(let i = 0; i < 10; i++) {
+//     arr.push(x)
+// }
+// console.log(arr)
+
+//5
+
+// let arr = [];
+//
+//
+// for(let i = 1; i <= 10; i++) {
+//     arr.push(i)
+// }
+// console.log(arr)
+
+//6
+
+// let arr = [];
+//
+//
+// for(let i = 1; i <= 10; i++) {
+//     arr.push(+Math.random().toFixed(2))
+// }
+// console.log(arr)
 
 
-//map (преобразование массива и возвразает новый массив)
 
-const students = [
-    {
-        name: "Bob",
-        age: 22,
-        isMarried: true,
-        scores: 120
-    },
-    {
-        name: "Alex",
-        age: 21,
-        isMarried: true,
-        scores: 85
-    },
-    {
-        name: "Michel",
-        age: 20,
-        isMarried: false,
-        scores: 89
-    }, {
-        name: "John",
-        age: 19,
-        isMarried: false,
-        scores: 100
-    }
-]
 
-const getStudentName = (s, i)  => {
-   return `Student ${i}: ${s.name}, ${s.age} years old`
-}
-
-const names = students.map(getStudentName) ;
-
-console.log(names)
 
 
 
