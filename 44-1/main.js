@@ -125,6 +125,34 @@
 // }
 // console.log(arr)
 
+//7
+
+// let arr = []
+//
+// for(let i = 0; i < 10; i++) {
+//     arr.push((Math.random()*10).toFixed())
+// }
+//
+// console.log(arr)
+
+//8
+
+// let arr = [1, 5, 23, 56, 3, 7];
+//
+// let newArr = arr.filter((elem) => {
+//     if(elem > 0 && elem < 10) {
+//         return true
+//     } else {
+//         return false
+//     }
+// })
+//
+// console.log(newArr)
+
+//9
+
+
+
 
 
 
