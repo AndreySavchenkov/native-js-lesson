@@ -31,4 +31,22 @@
 // console.log(newArr)
 
 //-------------------------------------------------------------------
+// function expressionMatter(a, b, c) {
+//     let arr = [];
+//     arr.push(a * ( b + c ));
+//     arr.push(a *  b * c);
+//     arr.push(a +  b * c);
+//     arr.push((a +  b) * c);
+//
+//     return arr.reduce((sum, el)=>{
+//         if (sum > el){
+//             return sum
+//         }
+//         return el
+//     },0)// highest achievable result
+// }
+//
+// console.log(expressionMatter(1,2,3))
 
+------------------------------------------------------------------------------
+    
