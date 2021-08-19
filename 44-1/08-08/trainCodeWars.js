@@ -48,5 +48,38 @@
 //
 // console.log(expressionMatter(1,2,3))
 
-------------------------------------------------------------------------------
-    
+//------------------------------------------------------------------------------
+// const array = [1, 2, 3,10];
+//
+// function sumArray(array) {
+//     const max = Math.max.apply(null,array);
+//     const min = Math.min.apply(null,array);
+//
+//     console.log(max);
+//     console.log(min);
+//
+//     let result = array.reduce((sum, elem) => {
+//         return sum + elem
+//     })
+// return result - max - min
+//
+// }
+//
+// console.log(sumArray(array));
+
+//----------------------------------------------------------------------------------------
+
+
+// let number = 1234;
+// sNumber = number.toString();
+// let array = [];
+//
+// for (let i = 0; i < sNumber.length; i++) {
+//     array.push(+sNumber.charAt(i))
+// }
+//
+//
+// console.log(array.reverse());
+
+//---------------------------------------------------------------------------------------------
+
